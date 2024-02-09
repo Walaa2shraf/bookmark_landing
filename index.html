@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bookmark.css" />
+    <title>Frontend Mentor | Bookmark landing page</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo-bookmark.svg" alt="logo-bookmark" />
+      </div>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="#Features">Features</a></li>
+          <li><a href="#Pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <button type="button" src="#">Login</button>
+        </ul>
+      </nav>
+      <img src="images/icon-hamburger.svg" class="burger" alt="close icon" />
+      <nav class="mobile-nav">
+        <div class="mobile-logo">
+          <img src="images/logo-bookmark copy.svg" alt="logo" />
+        </div>
+        <div class="toggle">
+          <img src="images/icon-close.svg" href="close-icon" class="close" />
+        </div>
+        <ul class="links">
+          <span></span>
+          <li><a href="#Features">Features</a></li>
+          <span></span>
+          <li><a href="#Pricing">Pricing</a></li>
+          <span></span>
+          <li><a href="#">Contact</a></li>
+          <span></span>
+          <button type="button" src="#">Login</button>
+          <div class="nav-media">
+            <img
+              src="images/icon-facebook.svg"
+              href="facebook.com"
+              alt="facebook"
+            />
+            <img
+              src="images/icon-twitter.svg"
+              href="twitter.com"
+              alt="twitter"
+            />
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <!-- End of the header -->
+    <!-- =========================================================== -->
+    <!-- beginning of Hero section -->
+    <section class="hero">
+      <article class="hero-text">
+        <h1>A Simple Bookmark Manager</h1>
+        <p>
+          A clean and simple interface to organize your favourite websites. Open
+          a new browser tab and see your sites load instantly. Try it for free.
+        </p>
+        <div class="hero-btn">
+          <button type="button" class="get-chrome" href="#">
+            Get it on Chrome
+          </button>
+          <button type="button" class="get-firefox" href="#">
+            Get it on Firefox
+          </button>
+        </div>
+      </article>
+      <div class="hero-image">
+        <img src="images/illustration-hero.svg" alt="hero-photo" />
+        <span class="hero-span"></span>
+      </div>
+    </section>
+    <!-- End of Hero section  -->
+    <!-- =========================================================== -->
+    <!-- beginning of section two -->
+    <section class="Features" id="Features">
+      <div class="features-text">
+        <h1>Features</h1>
+        <p>
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+      </div>
+      <div class="btns">
+        <span class="line-one"></span>
+        <button id="simple" type="button">Simple Bookmarking</button>
+        <span class="line-two"></span>
+        <button id="speedy" type="button">Speedy Searching</button>
+        <span class="line-three"></span>
+        <button id="easy" type="button">Easy Sharing</button>
+        <span class="btns-span"></span>
+      </div>
+      <div class="features-options">
+        <div class="features-photo">
+          <img
+            src="images/illustration-features-tab-1.svg"
+            alt="image"
+            id="features-img"
+            loading="lazy"
+          />
+          <span class="features-span" id="features-span"></span>
+        </div>
+        <div class="features-description">
+          <h3 id="features-title">Bookmark in one click</h3>
+          <p id="features-description">
+            Organize your bookmarks however you like. Our simple drag-and-drop
+            interface gives you complete control over how you manage your
+            favourite sites.
+          </p>
+          <button class="more-info">More Info</button>
+        </div>
+      </div>
+    </section>
+    <!-- End of section two -->
+    <!-- =========================================================== -->
+    <!-- beginning of section tree -->
+    <section class="Download" id="Pricing">
+      <div class="download-text">
+        <h1>Download the extension</h1>
+        <p>
+          We’ve got more browsers in the pipeline. Please do let us know if
+          you’ve got a favourite you’d like us to prioritize.
+        </p>
+      </div>
+      <div class="cards">
+        <div class="chrome">
+          <img class="icon" src="images/logo-chrome.svg" alt="chrome-icon" />
+          <h4>Add to Chrome</h4>
+          <p>Minimum version 62</p>
+          <img src="images/bg-dots.svg" alt="dots" />
+          <button>Add & Install Extension</button>
+        </div>
+        <div class="firefox">
+          <img class="icon" src="images/logo-firefox.svg" alt="chrome-icon" />
+          <h4>Add to Firefox</h4>
+          <p>Minimum version 55</p>
+          <img src="images/bg-dots.svg" alt="dots" />
+          <button>Add & Install Extension</button>
+        </div>
+        <div class="opera">
+          <img class="icon" src="images/logo-opera.svg" alt="chrome-icon" />
+          <h4>Add to Opera</h4>
+          <p>Minimum version 46</p>
+          <img src="images/bg-dots.svg" alt="dots" />
+          <button>Add & Install Extension</button>
+        </div>
+      </div>
+    </section>
+    <!-- End of section three -->
+    <!-- =========================================================== -->
+    <!-- beginning of section four -->
+    <section class="Frequently">
+      <div class="Frequently-text">
+        <h1>Frequently Asked Questions</h1>
+        <p>
+          Here are some of our FAQs. If you have any other questions you’d like
+          answered please feel free to email us.
+        </p>
+      </div>  
+      <!-- ========== -->
+      <div class="questions">
+        <span class="q-span"></span>
+        <div class="Ask">
+          <h4 id="ask-h1">What is Bookmark?</h4>
+          <i class="fa-solid fa-chevron-down" id="icon-down1"></i>
+        </div>
+
+        <div class="ask-p1">
+            <p class="ask-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum
+            quis quam ornare mattis.
+          </p>
+        </div>
+        <span class="q-span"></span>
+
+        <div class="Ask">
+          <h4 id="ask-h2">How can I request a new browser?</h4>
+          <i class="fa-solid fa-chevron-down" id="icon-down2"></i>
+        </div>
+          <div class="ask-p2">
+            <p class="ask-p">
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+            ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros
+            aliquet convallis ultricies. Mauris augue massa, ultricies non
+            ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis
+            ultricies. Mauris augue massa, ultricies non ligula. Suspendisse
+            imperdiet.
+          </p>
+        </div>
+        <span class="q-span"></span>
+        <div class="Ask">
+          <h4 id="ask-h3">Is there a mobile app?</h4>
+          <i class="fa-solid fa-chevron-down" id="icon-down3"></i>
+        </div>
+        <div class="ask-p3">
+            <p class="ask-p">
+            Sed consectetur quam id neque fermentum accumsan. Praesent luctus
+            vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula
+            quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin
+            ex et ultricies bibendum.
+          </p>
+        </div>
+
+        <span class="q-span"></span>
+        <div class="Ask">
+          <h4 id="ask-h4">What about other Chromium browsers?</h4>
+          <i class="fa-solid fa-chevron-down" id="icon-down4"></i>
+          </div>
+          <div class="ask-p4">
+            <p class="ask-p">
+            Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat
+            mi, at euismod dui. Aliquam vitae neque eget nisl gravida
+            pellentesque non ut velit.
+          </p>
+        </div>
+        <span class="q-span"></span>
+      </div>
+      <button class="more-info">More Info</button>
+    </section>
+    <!-- End of section four -->
+    <!-- =========================================================== -->
+    <!-- beginning of section five -->
+    <section class="stay-up" id="contact">
+      <p> 35,000+ already joined</p>
+      <h1>Stay up-to-date with what we’re doing</h1>
+      <form class="email">
+        <input class="val" type="email" required name="email" id="email" placeholder="Enter your Email adress">
+        <button id="Contact">Contact Us</button>
+      </form>
+    </section>
+    <footer>
+      <div class="links">
+        <img src="images/logo-bookmark copy.svg" alt="logo">
+        <ul>
+          <li><a href="#"> Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="social">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </footer>
+
+
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      defer
+    ></script> -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="bookmark.js" defer></script>
+  </body>
+</html>
