@@ -97,27 +97,32 @@ gsap.from('.chrome',{
     y:100,
     opacity:0, 
     ease:'elastic',
-    delay:1, 
+    delay:0.5, 
     scrollTrigger:{
         trigger:'.chrome',
-        start:"top 70%",
+        start:"top 65%",
     },
 });
-gsap.from('.firefox',{duration:1.5, y:100,opacity:0 ,ease:'elastic',delay:2 ,
+gsap.from('.firefox',{
+    duration:1, 
+    y:100,
+    opacity:0 ,
+    ease:'elastic',
+    delay:0.7 ,
     scrollTrigger:{
         trigger:'.firefox',
-        start:"top 70%",
+        start:"top 65%",
     },
 });
 gsap.from('.opera',{
-    duration:2, 
+    duration:1, 
     y:100, 
     opacity:0 ,
     ease:'elastic',
-    delay:3,
+    delay:1,
     scrollTrigger:{
         trigger:'.opera',
-        start:"top 70%",
+        start:"top 65%",
     },
 });
 
@@ -330,6 +335,6 @@ gsap.to(".questions",{
     ease:"power2.out",
     scrollTrigger:{
         trigger:".questions",
-        start:"top 30%",
+        start:"top 55%",
     },
 });
