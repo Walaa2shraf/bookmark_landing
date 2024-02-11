@@ -187,6 +187,7 @@ header .desktop-nav ul button:hover{
     color: var(--Soft-Red);
     outline: 2px solid var(--Soft-Red);
     border-radius: 6px;
+    transition: 0.3s;
 }
 
 /* End of desktop header */
