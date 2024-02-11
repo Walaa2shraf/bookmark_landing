@@ -738,6 +738,9 @@ i:hover{
 /* End of frequently section */
 /* beginning of frequently section responsive*/
 @media only screen and (max-width:768px){
+    * h1{
+        font-size: 25px;
+    }
     .Frequently-text h1{
         width: 100%;
         font-size: 25px;
@@ -754,7 +757,17 @@ i:hover{
         opacity: 0;
     }
     .q-span{
-        width: 90%;   
+        width: 90%; 
+        height: 0.8px ;
+        background-color: gray;  
+    }
+    .Ask h4{
+        padding: 6%;
+        font-weight: 300;
+    }
+    .ask-p1, .ask-p2, .ask-p3, .ask-p4{
+        padding: 6% ;
+        display: none;
     }
 }
 /* End of frequently section responsive*/
